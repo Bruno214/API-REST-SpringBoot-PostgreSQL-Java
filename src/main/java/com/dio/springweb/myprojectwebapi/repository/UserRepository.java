@@ -1,0 +1,9 @@
+package com.dio.springweb.myprojectwebapi.repository;
+
+import com.dio.springweb.myprojectwebapi.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+}
